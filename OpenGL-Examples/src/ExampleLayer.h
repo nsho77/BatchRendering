@@ -25,4 +25,6 @@ private:
 	glm::vec4 m_SquareColor = m_SquareBaseColor;
 
 	GLuint m_ChernoTex, m_CheckerboardTex;
+
+	float m_QuadPosition[2] = { -1.5, -0.5f };
 };
